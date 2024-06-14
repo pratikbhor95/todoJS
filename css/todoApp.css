@@ -1,0 +1,52 @@
+footer{
+  position: absolute;
+  bottom: 0;
+
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+.todo-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+.todo-item{
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .todo-container{
+  display:grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+
+} */
+button{
+  border: 0;
+  border-radius:5px ;
+  margin : 10px;
+  padding: 5px;
+  cursor: pointer;
+  width:60px
+}
+
+.add-btn{
+  background-color: greenyellow;
+}
+.delete-btn{
+  background-color: rgb(228, 68, 68);
+  
+}
+.label-text{
+  width:33%;
+  margin: 10px;
+}
+.text-input{
+  width:33%;
+  margin: 10px;
+}
+.item-container{
+  display: flex;
+  justify-content: space-evenly;
+}
